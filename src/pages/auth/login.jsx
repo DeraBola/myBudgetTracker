@@ -8,34 +8,37 @@ function Login() {
         <div className="w-1/2 bg-[#f3ecc5]">
           <img src={LoginImg} alt="" />
         </div>
-        <div className="w-1/2 bg-[#1E1E1E] py-2">
-          <h2 className="text-[#fff]">Monthly <span className="text-[#51D289]">Budget</span></h2>
-          <form className="w-full max-w-sm">
-            <div className="flex items-center border-b border-[#fff] py-2">
+        <div className="w-1/2 bg-[#1E1E1E] flex flex-col p-8 items-center ">
+          <h2 className="text-[#FFF] my-14 mb-8 text-3xl">Monthly <span className="text-[#51D289]">Budget</span></h2>
+          <form className="w-full flex flex-col items-center">
+            <div className="flex items-center border-b border-[#fff] mb-7">
               <input
-                className="appearance-none bg-transparent border-none w-50 text-gray-700 py-1 px-2 leading-tight focus:outline-none"
+                className=" appearance-none bg-transparent border-none w-50 ml-10 text-[#fff] py-1 px-2 leading-tight focus:outline-none"
                 type="text"
                 placeholder="insert your income"
                 aria-label="income"
               />
             </div>
-            <div className="flex items-center border-b border-[#fff] py-2">
+            <div className="flex items-center border-b border-[#fff] mb-7">
               <input
-                className="appearance-none bg-transparent border-none w-50 text-gray-700 py-1 px-2 leading-tight focus:outline-none"
+                className="appearance-none bg-transparent border-none w-50 ml-10 text-[#fff] py-1 px-2 leading-tight focus:outline-none"
                 type="text"
                 placeholder="insert your income"
                 aria-label="income"
               />
             </div>
-            <div className="flex items-center border-b border-[#fff] py-2">
+            <div className="flex items-center border-b border-[#fff] mb-7">
               <input
-                className="appearance-none bg-transparent border-none w-50 text-gray-700 py-1 px-2 leading-tight focus:outline-none"
+                className="appearance-none bg-transparent border-none w-50 ml-10 text-[#fff] py-1 px-2 leading-tight focus:outline-none"
                 type="text"
                 placeholder="insert your income"
                 aria-label="income"
               />
             </div>
           </form>
+          <button className="bg-[#FFE600] text-[#000] px-9 mt-4 py-2 h-8 flex items-center w-50">
+            Start Your Calculation
+          </button>
         </div>
       </div>
     </div>
