@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function Login() {
   return (
-    <div className='h-screen w-full bg-red-600'>
-        <p className="text-blue-800">Dera's Page!!!!</p> 
-        </div>
-  )
+    <div className="h-screen bg-gray-50 flex items-center justify-center w-full">
+      <div className="bg-[#f7e2a6] flex shadow-lg">
+      <div className="w-1/2">
+      </div>
+      <div className="w-1/2">
+      </div>
+    </div>
+    </div>
+  );
 }
 
-export default Login
+export default Login;
